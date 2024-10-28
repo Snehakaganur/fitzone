@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0bf;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("aish.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.signup-form {
+    background-color: #f0f0f0bf;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 300;
+}
+
+.signup-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.signup-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px  solid #f3f0f0;;
+    border-radius: 3px;
+}
+
+.signup-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: #218838;
+}
+
+#error-message {
+    color: red;
+    text-align: center;
+}
+
+.background-image {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("aish.jpg");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+
+}

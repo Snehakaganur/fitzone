@@ -1,0 +1,140 @@
+* .{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+        background-image: url("souji.jpg"); /* Replace with your image path */
+        background-size: cover; /* Ensures the image covers the entire background */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        background-position:center; /* Centers the image horizontally and vertically */
+        /* Optional: You can add more styles like background color, etc. */
+    /* Example of more specific styling */
+    header {
+        background-color: rgba(199, 91, 91, 0.8); /* Example of adding a semi-transparent white background to the header */
+        /* Additional styles for the header */
+    }
+       
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #99edf1;
+    padding: 10px 20px;
+}
+
+.navbar .logo {
+    color: rgb(52, 138, 172);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin-left: 20px;
+}
+
+.navbar .nav-links a {
+    color: rgb(15, 146, 140);
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.navbar .btn-login {
+    background-color: #81ced8;
+    color: rgb(67, 201, 190);
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+/* Hero Section */
+.hero {
+    background: url("aish.jpg") no-repeat center center/cover;
+    color: rgb(70, 58, 235);
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero .btn-start {
+    background-color: #07a1ac;
+    color: rgb(177, 240, 240);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Courses Section */
+.courses {
+    padding: 50px 20px;
+    background-color: #141617;
+    text-align: center;
+}
+
+.courses h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.course-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.course-card {
+    background-color:rgba(228, 172, 191, 0.893);
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(28, 122, 185, 0.1);
+    margin:10px;
+}
+
+.course-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.course-card p {
+    color:white;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.course-card .btn-enroll {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
