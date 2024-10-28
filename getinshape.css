@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #ff8b94;
+    color: white;
+}
+
+#workouts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 8rem;
+}
+
+.workout-card {
+    width: 200px;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    background: #fff;
+    border: 2px solid #ff8b94;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.workout-card:hover {
+    transform: scale(2.5);
+}
+
+.animation {
+    width: 150px;
+    height: 120px;
+    margin: 0 auto;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.jumpingJack {
+    background-image: url('jumpingjacks.gif'); /* Use placeholder image */
+    animation: jumpingJack 1s infinite alternate;
+}
+
+.squats {
+    background-image: url('squarts.gif'); /* Use placeholder image */
+    animation: squat 1s infinite alternate;
+}
+
+.plank {
+    background-image: url('planks.gif'); /* Use placeholder image */
+    animation: plank 1s infinite alternate;
+}
+
+@keyframes jumpingJack {
+    from { transform: scale(1); }
+    to { transform: scale(1.2); }
+}
+
+@keyframes squat {
+    from { transform: translateY(1); }
+    to { transform: translateY(10px); }
+}
+
+@keyframes plank {
+    from { opacity: 1; }
+    to { opacity: 0.6; }
+}

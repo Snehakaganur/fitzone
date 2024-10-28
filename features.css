@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.5rem;
+}
+
+header nav {
+    display: flex;
+    gap: 1rem;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav .button {
+    background-color: #ff6b6b;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://example.com/fitness-image.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 5rem 1rem;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+}
+
+.hero .button {
+    background-color: #ff6b6b;
+    padding: 0.75rem 1.5rem;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Features Section */
+#features {
+    padding: 2rem 1rem;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#features h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.feature {
+    margin: 1rem 0;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    color: #ff6b6b;
+}
+
+/* Testimonials Section */
+#testimonials {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.testimonial {
+    margin: 1rem 0;
+    font-style: italic;
+    color: #666;
+}
+
+.testimonial span {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.875rem;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
